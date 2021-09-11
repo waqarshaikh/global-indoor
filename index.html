@@ -3,6 +3,10 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,55 +19,59 @@
 
 <body>
 
-    <div class="topnav" id="myTopnav">
-        <a style="margin-right: 100px;" href="#">Logo</a>
-        <div style="float: right; margin-right: 100px;">
-            <a href="#home" class="active">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: white;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Global Indoor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Product Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="copy-of-case-study.html">Case study</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+    </nav>
 
     <div>
         <main>
 
-            <div style="display: flex; justify-content: center; gap: 120px;">
-                <div>
-                    <div class="content-heading"><span>Our Portfolio</span></div>
-                    <div>
-                        <img class="portfolio"
-                            src="https://static.wixstatic.com/media/abf3bf_965cf284711e47cfb216c84d040a8b03~mv2.jpg/v1/crop/x_0,y_1,w_916,h_916/fill/w_520,h_520,al_c,q_80,usm_0.66_1.00_0.01/Reach%20out%20for.webp"
-                            alt="">
-                    </div>
-                </div>
-
-                <div style="font-size: 20px;">
-                    <div class="content-heading"><span>Electronic Product Development</span></div>
-                    <p>
-                        Our 5 Principles for Delivery Engineering&copy;
-                    <ul>
-                        <li><b>E</b>dge of embedded electronics and firmware</li>
-                        <li>of fixed cost with penalty linked milesfones</li>
-                        <li><b>M</b>arket based field trials & commercialization</li>
-                        <li><b>C</b>o-creation in NPD, Portfolio constitution</li>
-                        <li><b>C</b>ompleteness and Holistic v/s others</li>
-                    </ul>
-
-                    </p>
-                </div>
-
-
-            </div><br> <br>
-
             <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="content-heading"><span>Our Portfolio</span></div>
+                        <div>
+                            <img class="portfolio"
+                                src="https://static.wixstatic.com/media/abf3bf_965cf284711e47cfb216c84d040a8b03~mv2.jpg/v1/crop/x_0,y_1,w_916,h_916/fill/w_520,h_520,al_c,q_80,usm_0.66_1.00_0.01/Reach%20out%20for.webp"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content-heading"><span>Electronic Product Development</span></div>
+                        <p>
+                            Our 5 Principles for Delivery Engineering&copy;
+                        <ul>
+                            <li><b>E</b>dge of embedded electronics and firmware</li>
+                            <li>of fixed cost with penalty linked milesfones</li>
+                            <li><b>M</b>arket based field trials & commercialization</li>
+                            <li><b>C</b>o-creation in NPD, Portfolio constitution</li>
+                            <li><b>C</b>ompleteness and Holistic v/s others</li>
+                        </ul>
+
+                        </p>
+                    </div>
+                </div><br> <br>
 
                 <div class="row">
 
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <h1>Engagement Models</h1>
                         <p>Product excellence & customer delight is our motto</p>
                         <div class="banner">
@@ -125,7 +133,7 @@
 
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <h1>Industry Deployments</h1>
                         <p>In scale &amp; impact</p>
                         <div class="row">
@@ -240,11 +248,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-lg-2">
                         <img src="https://static.wixstatic.com/media/abf3bf_559547d19ee145d8aeb856a633aa34e0~mv2.jpg/v1/crop/x_95,y_0,w_503,h_503/fill/w_188,h_188,al_c,q_80,usm_0.66_1.00_0.01/electronics%20measurement%20inditronics.webp"
                             alt="">
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <h1>Hardware Design</h1>
                         <p>
                             Altium Professional : Schematic, PCB layout - High speed RF multi-layer design<br>
@@ -254,14 +262,14 @@
                             NI LabView : Hardware integration & Test program for value measurement - RLC, VCF<br>
                         </p>
                     </div>
-                    <div class="col-2"> <button id="btn">Know More</button></div>
+                    <div class="col-lg-2"> <button id="btn">Know More</button></div>
                 </div><br><br>
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-lg-2">
                         <img src="https://static.wixstatic.com/media/abf3bf_559547d19ee145d8aeb856a633aa34e0~mv2.jpg/v1/crop/x_95,y_0,w_503,h_503/fill/w_188,h_188,al_c,q_80,usm_0.66_1.00_0.01/electronics%20measurement%20inditronics.webp"
                             alt="">
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <h1>Hardware Design</h1>
                         <p>
                             Altium Professional : Schematic, PCB layout - High speed RF multi-layer design<br>
@@ -271,14 +279,14 @@
                             NI LabView : Hardware integration & Test program for value measurement - RLC, VCF<br>
                         </p>
                     </div>
-                    <div class="col-2"> <button id="btn">Know More</button></div>
+                    <div class="col-lg-2"> <button id="btn">Know More</button></div>
                 </div><br><br>
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-lg-2">
                         <img src="https://static.wixstatic.com/media/abf3bf_559547d19ee145d8aeb856a633aa34e0~mv2.jpg/v1/crop/x_95,y_0,w_503,h_503/fill/w_188,h_188,al_c,q_80,usm_0.66_1.00_0.01/electronics%20measurement%20inditronics.webp"
                             alt="">
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <h1>Hardware Design</h1>
                         <p>
                             Altium Professional : Schematic, PCB layout - High speed RF multi-layer design<br>
@@ -288,14 +296,14 @@
                             NI LabView : Hardware integration & Test program for value measurement - RLC, VCF<br>
                         </p>
                     </div>
-                    <div class="col-2"> <button id="btn">Know More</button></div>
+                    <div class="col-lg-2"> <button id="btn">Know More</button></div>
                 </div><br><br>
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-lg-2">
                         <img src="https://static.wixstatic.com/media/abf3bf_559547d19ee145d8aeb856a633aa34e0~mv2.jpg/v1/crop/x_95,y_0,w_503,h_503/fill/w_188,h_188,al_c,q_80,usm_0.66_1.00_0.01/electronics%20measurement%20inditronics.webp"
                             alt="">
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <h1>Hardware Design</h1>
                         <p>
                             Altium Professional : Schematic, PCB layout - High speed RF multi-layer design<br>
@@ -305,33 +313,69 @@
                             NI LabView : Hardware integration & Test program for value measurement - RLC, VCF<br>
                         </p>
                     </div>
-                    <div class="col-2"> <button id="btn">Know More</button></div>
+                    <div class="col-lg-2"> <button id="btn">Know More</button></div>
                 </div><br><br>
             </div>
 
         </main>
 
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>Services</h1>
+                        <ul>
+                            <li>Materail Sourcing</li>
+                            <li>PCB Fabrication</li>
+                            <li>PCB Assembly</li>
+                            <li>Injection mould</li>
+                            <li>electromechanical box build</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h1>Services</h1>
+                        <ul>
+                            <li>Materail Sourcing</li>
+                            <li>PCB Fabrication</li>
+                            <li>PCB Assembly</li>
+                            <li>Injection mould</li>
+                            <li>electromechanical box build</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h1>Services</h1>
+                        <ul>
+                            <li>Materail Sourcing</li>
+                            <li>PCB Fabrication</li>
+                            <li>PCB Assembly</li>
+                            <li>Injection mould</li>
+                            <li>electromechanical box build</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <div style="text-align: center;">
+
+            Copyright © 2016-21 Global Indoor. All Rights Reserved
+
+
+        </div>
+
     </div>
 
     <script>
-        $(document).ready(function() {
-            $('button').click(function() {
+        $(document).ready(function () {
+            $('.col-2 > button').click(function () {
                 window.location.href = "electronic-design-company.html";
             });
-            $('.card').click(function() {
+            $('.card').click(function () {
                 window.location.href = "copy-of-case-study.html";
             });
-
         });
-        
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
+
+
     </script>
 
 </body>
