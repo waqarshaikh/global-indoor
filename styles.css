@@ -83,31 +83,11 @@ main button:hover {
   background-color: rgb(61 155 233);
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-.topnav a:hover {
-  color: blue;
-}
-
-.topnav a.active {
-  color: blue;
-}
-
-.portfolio {
+.portfolio-img {
   max-width: 100%;
 }
 
-.topnav .icon {
-  display: none;
-}
 
 footer{
   padding-top: 50px;
@@ -115,8 +95,16 @@ footer{
   color: black;
 }
 
-@media screen and (min-width: 780px){
-  .banner-img{
-    width: 100%;
+@media screen and (max-width: 550px){
+  .portfolio-img {
+    min-width: 100%;
+  }
+
+  .row1{
+    display: block;
+  }
+
+  .row1 img{
+    width: 40%;
   }
 }
