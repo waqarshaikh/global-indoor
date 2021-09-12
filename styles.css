@@ -67,6 +67,50 @@ main li {
   font-weight: 400;
 }
 
+.box{
+  color: white;
+}
+
+.box .col{
+  font-size: 15px;
+  padding: 20px;
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+
+.box .col h4{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.box .col ul{
+  margin-left: 0px;
+}
+
+.box .col ul li{
+  margin-bottom: 0px;
+}
+
+.box .col:nth-child(1){
+  background-color: rgb(15,79,135);
+}
+
+.box .col:nth-child(2){
+  background-color: #1777CB;
+}
+
+.box .col:nth-child(3){
+  background-color: #7BABDC;
+}
+
+.box .col:nth-child(4){
+  background-color: #6D6D6D;
+}
+
+.box .col:nth-child(5){
+  background-color: #4B4B4B;
+}
+
 .card img {
   max-width: 100%;
 }
