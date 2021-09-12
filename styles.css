@@ -171,6 +171,12 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
+  footer{
+    width: 100%;
+  }
+  footer li{
+    font-size: 15px;
+  }
   .portfolio-img {
     min-width: 100%;
   }
@@ -197,6 +203,14 @@ footer {
 
   .banner p{
     font-size: 13px;
+  }
+
+  .case-study{
+    margin: 0px 10px;
+  }
+
+  .case-study .row ol{
+    margin: 0px 10px;
   }
 }
 
